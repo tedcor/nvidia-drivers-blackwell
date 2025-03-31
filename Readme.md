@@ -51,7 +51,7 @@ If all went well you should see the status of your GPU and processes in the term
 Install pipx
 ```
 sudo apt install pipx
-pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
+pipx install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
 ```
 ### issues with running comfyui
 
