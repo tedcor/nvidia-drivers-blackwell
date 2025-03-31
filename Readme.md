@@ -20,7 +20,7 @@ sudo reboot
 sudo apt update && sudo apt upgrade -y
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt update 
-sudo apt install nvidia-driver-570-open
+sudo apt install nvidia-driver-570-open -y
 reboot
 ```
 ### Installing Cuda 12.8
