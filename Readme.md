@@ -17,6 +17,7 @@ sudo apt install nvidia-driver-570 -y
 sudo reboot
 ```
 ```
+sudo apt update && sudo apt upgrade -y
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt update 
 sudo apt install nvidia-driver-570-open
