@@ -9,14 +9,6 @@ sudo apt remove nvidia*
 sudo apt autoremove
 sudo reboot
 ```
-#The Following Will Install The 570 Driver. If you have issues with this driver purge nvidia and install 570-open.
-```
-sudo apt update && sudo apt upgrade -y
-sudo add-apt-repository ppa:graphics-drivers/ppa -y
-sudo apt update
-sudo apt install nvidia-driver-570 -y
-sudo reboot
-```
 #The Following Will Install The 570-open Driver.
 ```
 sudo apt update && sudo apt upgrade -y
