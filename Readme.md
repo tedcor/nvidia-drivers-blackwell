@@ -36,8 +36,7 @@ Enter the commands below into your terminal
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-keyring_1.1-1_all.deb
 sudo dpkg -i cuda-keyring_1.1-1_all.deb
 sudo apt update
-sudo apt-get -y install cuda-toolkit-12-8
-```
+sudo apt install nvidia-cuda-toolkit
 ### How to check if the drivers and CUDA installed correctly
 
 open your terminal and enter the folling command:
